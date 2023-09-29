@@ -29,7 +29,7 @@ We have the following files:
 • beam search.py: Main file to translate input sentences  
   
   
-1. Implemented beam search with beam size 1 in beam_search.py . Ran the Search for beam size 1 and saved the output in a new file named test_beam_1.out. Used sacrebleu pacakage to compute the BLEU Score[1] performance of the model to get an initial baseline.  
+1. Implemented beam search with beam size 1 (greedy prediction) in beam_search.py . Ran the Search for beam size 1 and saved the output in a new file named test_beam_1.out. Used sacrebleu pacakage to compute the BLEU Score[1] performance of the model to get an initial baseline.  
 2. Implemented beam search algorithm to use any beam size.  
 3. Applied beam search on the valid.fra file for beam size K = 1, 2, · · · , 20. Computed the BLEU scores for each of the output files and Plotted them.  
 4. Applied the beam search on the test.fra file using the K which gives the highest BLEU score in part 3. Computed the BLEU score for the test translations.  
