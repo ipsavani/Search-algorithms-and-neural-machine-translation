@@ -2,7 +2,7 @@
 implemented search algorithms and applied them to two real-world datasets.  
 
 
-Part 1. NYC Taxi Data  
+#### Part 1. NYC Taxi Data  
 performed Uniform Cost Search and A∗ search on a list of the taxi trips made in NYC in the January 2015.  
 Dataset columns used:  
 • pickup longitude • pickup latitude  
@@ -19,7 +19,7 @@ Dataset columns used:
 4. Implement A∗ search using a heuristic. One idea of a heuristic value is to use straight line distance between 2 points. This can be computed using the geopy package.  
    • The program inputs two node ids from the user and output the path as well as the cost between them.  
     
-Part 2. Neural Machine Translation  
+#### Part 2. Neural Machine Translation  
 implemented beam search for Neural Machine Translation (NMT). This NMT model is already trained on the French to English translation task and a sample file is provided to run for few examples. The data files have already been pre-processed including tokenization and normalization.  
 We have the following files:  
 • models/encoder & models/decoder: trained model files  
